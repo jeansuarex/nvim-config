@@ -63,13 +63,13 @@ return {
     local alpha = require("alpha")
     local dashboard = require("alpha.themes.dashboard")
 
-    -- Define tu contenido del header
+    
     dashboard.section.header.val = {}
     for line in majoras_ascii:gmatch("[^\n]+") do
       table.insert(dashboard.section.header.val, line)
     end
 
-    -- Configura los botones
+    
     dashboard.section.buttons.val = {
       dashboard.button("a", "New file", ":enew<CR>"),
       dashboard.button("b", "Find file", ":Telescope find_files<CR>"),
@@ -78,13 +78,13 @@ return {
     }
 
 
-    -- Footer y cita motivacional
+    
     dashboard.section.footer.val = {
       "@jeansuarex 💕",
     }
 
 
-    -- Configura el dashboard
+    
     alpha.setup(dashboard.config)
   end,
 }
