@@ -43,6 +43,10 @@ return {
                     error = '!',
                 },
             },
+           filters = {
+                dotfiles = false,  
+                custom = { ".git" },  
+            },
         }
     end
 }

@@ -21,7 +21,9 @@ require("lazy").setup({
     require("plugins.lspconfig"),
     require("plugins.cmp"),
     require("plugins.telescope"),  
-    require("plugins.alpha")
+    require("plugins.alpha"),
+    require("plugins.others"),
+    require("plugins.noice")
 })
 
 -- options 

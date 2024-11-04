@@ -4,7 +4,10 @@ return {
     config = function()
         require("telescope").setup({
             defaults = {
-                mappings = {
+                prompt_prefix = "❯ ",
+                selection_caret = "❯ ",
+                file_ignore_patterns = {".git"},
+                      mappings = {
                     i = {
                         ["<C-h>"] = "which_key",
                     },
@@ -13,5 +16,3 @@ return {
         })
     end,
 }
-
-
