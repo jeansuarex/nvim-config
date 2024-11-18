@@ -1,4 +1,4 @@
-local xxx = [[
+local luffy = [[
 
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣾⣷⣤⠀⠀⠀⠀⠀⠀⠀⡀⠀⣀⣀⣴⣶⠞⠁⣀⣤⠤⠂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⣾⠿⣿⣿⡯⠀⠀⠀⠀⠀⢀⣴⣿⣿⣿⣿⣿⣧⣤⣾⣿⣁⣀⠀⠀⠀⢀⣀⣤⣤⣄⠀⠀⠀⠀⠀⠀
@@ -93,7 +93,7 @@ return {
     local dashboard = require("alpha.themes.dashboard")
     
     dashboard.section.header.val = {}
-    for line in xxx:gmatch("[^\n]+") do
+    for line in luffy:gmatch("[^\n]+") do
       table.insert(dashboard.section.header.val, line)
     end
    

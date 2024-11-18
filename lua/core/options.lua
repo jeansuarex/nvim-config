@@ -3,7 +3,7 @@ vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.mouse = 'a'
 vim.opt.compatible = false
-vim.cmd('colorscheme default')
+vim.cmd('colorscheme github_dark_tritanopia')
 vim.opt.expandtab = true
 vim.o.hidden=true
 vim.opt.shiftwidth = 4

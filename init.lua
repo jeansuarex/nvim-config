@@ -14,16 +14,15 @@ vim.opt.rtp:prepend(lazypath)
 
 -- plugins
 require("lazy").setup({
-    require("plugins.comment"),
     require("plugins.nvim-tree"),
     require("plugins.undotree"),
     require("plugins.colorschemes"),
     require("plugins.lspconfig"),
+    require("plugins.surround"),
     require("plugins.cmp"),
     require("plugins.telescope"),  
     require("plugins.alpha"),
-    require("plugins.others"),
-    require("plugins.noice")
+    require("plugins.themery"),
 })
 
 -- options 
@@ -31,6 +30,3 @@ require("core.options")
 require("core.keymaps")
 
 
--- utils 
-require("utils.runner")
-require("utils.aoc")
